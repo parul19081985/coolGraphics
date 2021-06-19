@@ -3,8 +3,26 @@ body {
 }
 
 #title {
+
   background-color: #ff4c68;
   color: #fff;
+
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(45deg);
+  right: 25%;
+
+position: absolute;
+}
+
+#features {
+  position: relative;
+  padding: 7% 15%;
+  z-index: 1;
+  background-color: #fff;
+
 }
 
 h1 {
@@ -12,6 +30,7 @@ h1 {
   font-size: 3rem;
   line-height: 1.5;
 }
+
 
 .Container-fluid {
   padding: 3% 15%;
@@ -49,16 +68,12 @@ h1 {
   font-family: "Montserrat-light";
   margin: 5% 3% 5% 0;
 
+
 }
 
-.title-image{
-  width: 60%;
-  transform: rotate(45deg);
-}
 
-#features {
-  padding: 7% 15%;
-}
+
+
 
 .feature-box {
   text-align: center;
@@ -79,7 +94,10 @@ h2 {
 
 h3 {
   font-family: "Montserrat-Bold";
+
+  line-height: 1.5;
 }
+
 
 p {
   color: #8f8f8f;
@@ -115,4 +133,51 @@ p {
 
 .carousel-item{
   padding: 7% 15%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+
+#title{
+  text-align: center;
+}
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+
+}
+
+.margining{
+  margin-left: 70px;
+}
+.h3class{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.spacings{
+  margin: 20px 10px
 }
